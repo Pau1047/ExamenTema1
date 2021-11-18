@@ -98,12 +98,12 @@ public class EstadisticasEquipo {
         System.out.println("Los puntos totales del equipo son " + calculaPuntos(partidosg,partidosp,partidose));
 
 
-            int[]visisante = new int[partidoj];
-            for (int i = 0; i<visisante.length; i++) {
+            int[]partidos = new int[partidoj];
+            for (int i = 0; i<partidos.length; i++) {
                 System.out.println("introduzca los resultados de los partidos ");
 
              int[] jugados = new int[introducir.nextInt()];
             }
-            System.out.println("Estos son los partidos que han jugado de vivitante " + filtraPartidosVisitante(visisante));
+            System.out.println("Estos son los partidos que han jugado de vivitante " + filtraPartidosVisitante(partidos));
     }
 }
